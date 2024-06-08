@@ -3,33 +3,33 @@
 ### 1. Open a Terminal
 ### 2. Add a New User with a Specified Home Directory
 ``` bash
-sudo useradd -m -d /home/username username
+sudo useradd -m -d /home/sam sam
 ```
 
 
 
 ### 3. Set a Password for the New User
 ``` bash 
-sudo passwd username
+sudo passwd sam
 ```
 
 
 ### 4. Add User to Sudo Group
 ``` bash 
-sudo usermod -aG sudo username
+sudo usermod -aG sudo sam
 
 ```
 
 
 ### 5. Verify the User's Groups
 ``` bash 
-groups username
+groups sam
 ```
 
 
 ### 6. Check the Home Directory
 ``` bash 
-ls -ld /home/username
+ls -ld /home/sam
 ```
 
 
